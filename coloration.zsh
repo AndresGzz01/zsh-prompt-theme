@@ -18,4 +18,4 @@ zstyle ':vcs_info:git:*' formats '%F{yellow}[%r]%f %F{cyan} %b%f %c%u %F{gree
 zstyle ':vcs_info:git:*' actionformats '%F{yellow}[%r]%f %F{magenta} %b|%a%f %c%u %F{green}%m%f'
 
 # Prompt con colores suaves y símbolos
-PROMPT='%F{blue}/%1~%f ${vcs_info_msg_0_}%F{green}➜%f '
+PROMPT='%F{blue}%5~%f ${vcs_info_msg_0_}%F{green}➜%f '
